@@ -973,7 +973,7 @@ textarea {
     outline: none;
 }
 
-@media (min-width: 428px) {
+@media (min-width: 429px) {
     .menu-toggle {
         display: none;
     }
