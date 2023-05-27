@@ -973,7 +973,7 @@ textarea {
     outline: none;
 }
 
-@media (max-width: 427px) {
+@media (max-width: 320px) {
     .menu-toggle {
         display: none;
     }
@@ -1088,7 +1088,7 @@ textarea {
   | Media
   |============================
 */
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 320px) {
     
     .container{
         max-width: 428px;
