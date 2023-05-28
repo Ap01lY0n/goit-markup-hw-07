@@ -973,7 +973,7 @@ textarea {
     outline: none;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
     .menu-toggle {
         display: none;
     }
@@ -1255,10 +1255,7 @@ textarea {
     }
     
 }
-@media screen and (max-width: 768px) {
-    .menu-toggle {
-            display: none;
-        }
+@media screen and (min-width: 768px) {
     .features-svg {
             display: none;
         }
@@ -1375,10 +1372,11 @@ textarea {
             justify-content: center;
         margin: 0 auto;
     }
-}
-
-@media screen and (max-width: 1200px) {
-    .container{
-        max-width: 1158px;
+    .menu-container{
+        display: none;
+    }
+    .modal{
+        margin: 0 auto;
     }
 }
+
