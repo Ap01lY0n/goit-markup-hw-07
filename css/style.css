@@ -1257,8 +1257,11 @@ textarea {
 }
 @media only screen and (min-width: 768px) {
     .features-svg {
-            display: none;
-        }
+        display: none;
+    }
+    .nav-menu-ul{
+        display: flex;
+    }
     .container{
         max-width: 768px;
     }
@@ -1286,9 +1289,10 @@ textarea {
         font-weight: 700;
             font-size: 36px;
             line-height: 40px;
-             
+             text-align: left;
             letter-spacing: 0.02em;
             text-transform: capitalize;
+            margin-left: 0;
     }
     .features-p{
         font-family: 'Roboto';
@@ -1308,10 +1312,12 @@ textarea {
     .our-team-images{
         display: flex;
         flex-wrap: wrap;
+        
     }
     .our-team-li{
         margin-bottom: 64px;
         flex-wrap: wrap;
+        margin: 0 ;
     }
     .customers-ul {
         max-width: 768px;
