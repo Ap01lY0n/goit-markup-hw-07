@@ -1088,7 +1088,7 @@ textarea {
   | Media
   |============================
 */
-@media screen and (max-width: 428px) {
+@media only screen and (min-width: 428px) {
     
     .container{
         max-width: 428px;
@@ -1255,7 +1255,7 @@ textarea {
     }
     
 }
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .features-svg {
             display: none;
         }
