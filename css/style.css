@@ -1413,6 +1413,9 @@ textarea {
 
 }
 @media only screen and (min-width: 768px) {
+    .header {
+        max-width: 1156 px;
+    }
     .features-svg {
         display: none;
     }
@@ -1605,6 +1608,9 @@ textarea {
     }
 }
 @media only screen and (min-width:1158px){
+    .header {
+    max-width: 1920px;
+    }
     .container{
         max-width: 1158px;
     }
@@ -1627,6 +1633,20 @@ textarea {
 }
 .features-li{
     width: calc((100% - 24px * 3) / 4);
+}
+.features-h{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+    
+        color: #2E2F42;
 }
 .features-svg{
     display: flex;
