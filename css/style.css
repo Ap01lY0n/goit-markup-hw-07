@@ -1189,7 +1189,7 @@ textarea {
         flex-wrap: wrap;
     }
     .footer{
-        display: inline-block;
+        display: flex;
     }
     .footer-div{
         max-width: 428px;
@@ -1275,6 +1275,7 @@ textarea {
         padding-bottom: 0;
     }
     .features-ul{
+        display: flex;
         flex-wrap: wrap;
         margin-bottom: 8px;
     }
@@ -1305,7 +1306,7 @@ textarea {
         display: none;
     }
     .our-team-images{
-        margin-left: 93px;
+        display: flex;
         flex-wrap: wrap;
     }
     .our-team-li{
@@ -1327,23 +1328,68 @@ textarea {
         width: 168px;
         gap: 24px;
     }
+    .footer{
+        display: flex;
+    }
     .footer-div{
         max-width: 768px;
     }
+    .footer-logo {
+    display: flex;
+    margin-bottom: 16px;
+    color: var(--color-partlogo-buttons);
+    }
+    .footer-logo-text{
+        display: flex;
+    }
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+    margin: 0;
+}
+.footer-logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-resst);
+}
+.footer-div-container{
+    margin-left: 93px;
+}
+    .social-media-p{
+        margin-left: 0;
+    }
     .social-media-ul{
-        display: flex;  
-        margin-right: 164px;
+        margin-right: 149px;
     }
     .footer-subscribe-div{
         display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
+            flex-wrap: wrap;
+            margin: 0 ;
+            align-content: center;
+            flex-direction: column;
+            width: 453px;
     }
     .footer-subscribe-p {
         display: flex;
+        justify-content: normal;
+        margin-left: 175px;
     }
     .footer-form{
         display: flex;
+        margin-left: 0;
     }
     .footer-input{
         border: 1px solid #FFFFFF;
@@ -1354,6 +1400,9 @@ textarea {
             color: #FFFFFF;
             
                 opacity: 0.6;
+            width: 264px;
+            margin-left: 0;
+            margin-left: 175px;
     }
     .footer-input::placeholder{
         font-family: 'Roboto';
@@ -1371,6 +1420,10 @@ textarea {
         display: flex;
             justify-content: center;
         margin: 0 auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-left: 24px;
+        height: 40px;
     }
     .menu-container{
         display: none;
