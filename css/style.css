@@ -1272,9 +1272,22 @@ textarea {
             transform: translateX(150%);
             padding-top: 96px;
     }
-    
+    .modal{
+        width: 95%;
+        height: 75%;
+    }
+    .modal-privacy{
+        display: inline;
+    }
 }
 @media only screen and (min-width: 428px) {
+    .modal-privacy{
+            display: inline-flex;
+    }
+    .modal{
+        width: 408px;
+        height: 584px;
+    }
     .header{
         max-width: 1156px;
     }
