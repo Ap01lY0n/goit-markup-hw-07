@@ -305,7 +305,7 @@ img{
 }
 
 .section-features{
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .features-ul{
@@ -1104,9 +1104,6 @@ textarea {
   |============================
 */
 @media only screen and (min-width:320px) {
-    .menu-container{
-        padding-bottom: 120px;
-    }
     .mobile-social{
         gap:35px;
     }
@@ -1270,17 +1267,31 @@ textarea {
     }
     .menu-container {
             transform: translateX(150%);
-            padding-top: 96px;
+            padding-top: 80px;
     }
-    .modal{
-        width: 95%;
-        height: 75%;
-    }
+
     .modal-privacy{
         display: inline;
     }
+    .hero{
+        padding: 112px 0;
+        max-width: 428px;
+        max-height: 432px;
+    }
+}
+@media only screen and (max-width:767px) {
+        .modal {
+                width: 95%;
+                max-width: 392px;
+                height: 95%;
+                max-height: 584px;
+                overflow: scroll;
+            }
 }
 @media only screen and (min-width: 428px) {
+    .mobile-menu {
+    margin-bottom: 244px; 
+    }
     .modal-privacy{
             display: inline-flex;
     }
@@ -1343,6 +1354,9 @@ textarea {
     }
     .header-div{
         height: 70px;
+    }
+    .hero{
+        max-width: 1158px;
     }
     .hero-h{
         font-family: 'Roboto';
@@ -1421,7 +1435,6 @@ textarea {
         display: flex;
         margin: auto;
         justify-content: center;
-        padding-bottom: 72px;
     }
     
     .footer-subscribe-div{
@@ -1484,6 +1497,8 @@ textarea {
     }
     .hero-h{
         max-width: 768px;
+        font-size: 56px;
+        line-height: 60px;
     }
     .section-features{
         padding-bottom: 0;
@@ -1538,11 +1553,10 @@ textarea {
         flex-wrap: wrap;
         margin: 0 auto;
         justify-content: center;
-        gap: 72px 16px;
-        width: 576px;
+        gap: 72px 24px;
 
     }
-    
+
     .customers-li {
         width: 168px;
         gap: 24px;
@@ -1591,8 +1605,8 @@ textarea {
     .social-media-p{
         text-align: left;
     }
-    .social-media-ul{
-        margin-right: 149px;
+    .social-media-div{
+        margin-right: 80px;
     }
     .footer-subscribe-div{
         display: flex;
@@ -1674,7 +1688,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 429px) and (max-width: 767px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/Dark-bg_mob@1x.jpg);
@@ -1714,6 +1728,11 @@ textarea {
 
 
 @media only screen and (min-width:1158px){
+    .features-p{
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+    }
     .header {
     max-width: 1920px;
     }
