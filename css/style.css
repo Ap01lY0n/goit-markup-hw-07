@@ -1107,9 +1107,6 @@ textarea {
     .mobile-social{
         gap:35px;
     }
-    .mobile-menu{
-        margin-bottom: 244px;
-    }
     .container{
         max-width: 320px;
     }
@@ -1303,7 +1300,7 @@ textarea {
         max-width: 1156px;
     }
     .menu-container {
-            padding-top: 96px;
+            padding-top: 80px;
     }
     .mobile-social{
         gap:56px;
